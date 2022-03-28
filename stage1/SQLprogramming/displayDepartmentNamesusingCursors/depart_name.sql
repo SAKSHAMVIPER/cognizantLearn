@@ -1,0 +1,18 @@
+SET SERVEROUTPUT ON;
+DECLARE 
+    D_NAME Department.DEPARTMENT_NAME%TYPE; 
+    CURSOR C IS SELECT DEPARTMENT_NAME FROM Department ORDER BY DEPARTMENT_NAME; 
+
+BEGIN
+        DBMS_OUTPUT.PUT_LINE('Department Names are :');
+    OPEN C;
+        LOOP 
+            FETCH C INTO D_NAME;
+                EXIT WHEN C%NOTFOUND;
+                    DBMS_OUTPUT.PUT_LINE(D_NAME);
+        END LOOP;
+    CLOSE C;
+END;
+
+
+
