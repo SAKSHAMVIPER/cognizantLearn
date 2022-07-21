@@ -1,0 +1,21 @@
+.inp {
+    margin: 3px 3px;
+    padding: 7px 17px;
+    border-width: 0;
+    /* border-color: grey; */
+    border-radius: 2rem;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255)
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.5;
+    /* Firefox */
+}
+
+.btn-outline-primary {
+    border-color:  rgba(37, 117, 252, 1);
+    color: rgba(37, 117, 252, 1);
+}

@@ -1,0 +1,7 @@
+CREATE TABLE Quotes(
+	ID BIGINT AUTO_INCREMENT PRIMARY KEY,
+    Business_Value BIGINT NOT NULL,
+    Property_Value BIGINT NOT NULL,
+    Property_Type VARCHAR(50) NOT NULL,
+    Quotes VARCHAR(50) NOT NULL
+);

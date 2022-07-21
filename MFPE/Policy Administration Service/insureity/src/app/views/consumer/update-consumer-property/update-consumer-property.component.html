@@ -1,0 +1,81 @@
+<app-card>
+    <div class="content" align="center">
+        <div class="container" *ngIf="!hasError  && response==null">
+            <h2>Update Business Property</h2>
+
+            <form [formGroup]="propertyForm" (ngSubmit)="onSubmit(propertyForm.value)" method="post">
+                <table>
+                    <tr>
+                        <td>Business ID:</td>
+                        <td><input formControlName="businessId" id="businessId" type="number" class="form-control"
+                                placeholder="" />
+                    </tr>
+                    <tr>
+                        <td>Consumer ID:</td>
+                        <td><input formControlName="consumerId" id="consumerId" type="number" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Building sqft:</td>
+                        <td><input formControlName="buildingSqFt" id="buildingsqft" type="text" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Building Type:</td>
+                        <td><input formControlName="buildingType" id="buildingtype" type="text" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Building Storeys:</td>
+                        <td><input formControlName="buildingStoreys" id="buildingstoreys" type="text"
+                                class="form-control" placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Building Age:</td>
+                        <td><input formControlName="buildingAge" id="buildingage" type="number" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <!-- <tr>
+                <td>Property Value:</td>
+                <td><input formControlName="propertyValue" id="costoftheasset" type="number" class="form-control"
+                        placeholder="" />
+                </td>
+            </tr> -->
+                    <tr>
+                        <td>Cost of the Asset:</td>
+                        <td><input formControlName="costOftheAsset" id="costoftheasset" type="number"
+                                class="form-control" placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Salvage Value:</td>
+                        <td><input formControlName="salvageValue" id="salvagevalue" type="number" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Useful Life of the Asset:</td>
+                        <td><input formControlName="usefulLifeofAsset" id="usefullifeoftheAsset" type="number"
+                                class="form-control" placeholder="" />
+                        </td>
+                    </tr>
+                    <div align="center">
+                        <input type="submit" class="btn btn-success" value="Update Business Property" />
+                    </div>
+                </table>
+            </form>
+        </div>
+        <table style="border: 0px solid black;border-collapse: collapse;">
+            <div *ngIf="response!=null || errorMsg!=''">
+
+                <h6>Status:</h6>
+                <h6>
+                    <span *ngIf="!hasError" class="text-success">{{response}}</span>
+                    <span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                </h6>
+                <div class="btn-group mt-3" role="group">
+                    <button type="button" class="btn btn-primary" routerLink="/home">Home</button>
+                    <!-- <button type="button" class="btn btn-primary" routerLink="../">Go Back</button> -->
+                </div>
+            </div>
+        </table>
+    </div>
+</app-card>

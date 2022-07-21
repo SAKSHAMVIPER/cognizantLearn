@@ -1,0 +1,204 @@
+<section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row" align="center">
+            <div class="col-md-8 col-lg-5 mb-3 d-flex align-items-stretch shadow-lg bg-dark text-white"
+                style="border-radius: 1rem;">
+                <div class="content p-5">
+                    <h2>Consumer Business</h2>
+                    <form [formGroup]="consumerBusinessForm"
+                        (ngSubmit)="onClickViewConsumerBusiness(consumerBusinessForm.value)">
+                        <div class="form-group">
+                            <div class="row mt-4">
+                                <input formControlName="consumerId" type="number" class="inp form-control"
+                                    placeholder="Enter consumer Id" />
+                                <!-- <div class="" style="border-radius: 2rem;background-color: rgba(66, 66, 66, 0);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="consumerId" type="number" class="form-control"
+                                            placeholder="Enter consumer ID" />
+                                        <label class="form-label" for="formWhite">Consumer Id</label>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="row mt-3" style="display: flex">
+                                <input type="submit" class="btn btn-primary rounded-pill mt-2"
+                                    value="View Consumer Business" />
+                                <input type="button" class="btn btn-primary rounded-pill mt-1"
+                                    (click)="onClickUpdateConsumerBusiness(consumerBusinessForm.value)"
+                                    value="Update Consumer Business" />
+
+                            </div>
+                            <hr class="mt-3 mb-3" />
+                            <div class="row" style="display: flex">
+                                <button class="btn btn-outline-primary rounded-pill"
+                                    (click)="onClickAddConsumerBusiness()">Create
+                                    Consumer
+                                    Business</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-danger" role="alert" *ngIf="consumerError!=null">
+                        {{consumerError}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+            </div>
+            <div class="col-md-8 col-lg-5 mb-3 d-flex align-items-stretch shadow-lg bg-dark text-white"
+                style="border-radius: 1rem;">
+                <div class="content p-5">
+                    <h2>Consumer Property</h2>
+                    <form [formGroup]="consumerPropertyForm"
+                        (ngSubmit)="onClickViewConsumerProperty(consumerPropertyForm.value)">
+                        <div class="form-group">
+                            <div class="row mt-4">
+                                <input formControlName="consumerId2" id="consumerid" type="number"
+                                    class="inp form-control" placeholder="Enter Consumer Id" />
+                                <input formControlName="propertyId" id="propertyid" type="number"
+                                    class="inp form-control" placeholder="Enter Property Id" />
+                                <!-- <div class="" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="consumerId2" id="consumerid" type="number"
+                                            class="form-control" />
+                                        <label class="form-label" for="formWhite"
+                                            >Consumer Id</label>
+                                    </div> 
+                                </div>-->
+                                <!-- <div class="mt-2" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="propertyId" id="propertyid" type="number"
+                                            class="form-control" />
+                                        <label class="form-label" for="formWhite">Property Id</label>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="row mt-3" style="display: flex">
+                                <input type="submit" class="btn btn-primary rounded-pill mt-2"
+                                    value="View Consumer Property" />
+                                <input type="button" class="btn btn-primary rounded-pill mt-1"
+                                    (click)="onClickUpdateConsumerProperty(consumerPropertyForm.value)"
+                                    value="Update Consumer Property" />
+
+                            </div>
+                            <hr class="mt-3 mb-3" />
+                            <div class="row" style="display: flex">
+                                <button class="btn btn-outline-primary rounded-pill"
+                                    (click)="onClickAddConsumerProperty()">Create
+                                    Consumer
+                                    Property</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-danger" role="alert" *ngIf="propertyError!=null">
+                        {{propertyError}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" align="center">
+            <div class="col-md-8 col-lg-5 mb-3 d-flex align-items-stretch shadow-lg bg-dark text-white"
+                style="border-radius: 1rem;">
+                <div class="content p-5">
+                    <h2>Quotes</h2>
+                    <form [formGroup]="quotesForm" (ngSubmit)="onClickViewQuotes(quotesForm.value)">
+                        <div class="form-group">
+                            <div class="row mt-4">
+                                <input formControlName="businessValue" id="businessValue" type="number"
+                                    class="inp form-control" placeholder="Enter Business Value" />
+                                <input formControlName="propertyValue" id="propertyValue" type="number"
+                                    class="inp form-control" placeholder="Enter Property Value" />
+                                <input formControlName="propertyType" id="propertyType" type="text"
+                                    class="inp form-control" placeholder="Enter Property Type" />
+
+                                <!-- <div class="" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="businessValue" id="businessValue" type="number"
+                                            class="form-control" placeholder="Enter Business Value" />
+                                        <label class="form-label" for="formWhite">Business Value</label>
+                                    </div>
+                                </div>
+                                <div class="mt-2" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="propertyValue" id="propertyValue" type="number"
+                                            class="form-control" placeholder="Enter Property Value" />
+                                        <label class="form-label" for="formWhite">Property Value</label>
+                                    </div>
+                                </div>
+                                <div class="mt-2" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="propertyType" id="propertyType" type="text"
+                                            class="form-control" />
+                                        <label class="form-label" for="formWhite">Property Type</label>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="row mt-3" style="display: flex">
+                                <button class="btn btn-outline-primary rounded-pill">View Quotes</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-danger mt-2" role="alert" *ngIf="hasError">
+                        {{errorMsg}}
+                    </div>
+                    <div class="alert alert-success mt-2" role="alert" *ngIf="quoteResponse!=null">
+                        Quotes : {{quoteResponse}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div></div>
+            </div>
+            <div class="col-md-8 col-lg-5 mb-3  d-flex align-items-stretch shadow-lg bg-dark text-white"
+                style="border-radius: 1rem;">
+                <div class="content p-5">
+                    <h2>Policy</h2>
+                    <form [formGroup]="policyForm" (ngSubmit)="onClickViewPolicy(policyForm.value)">
+                        <div class="form-group">
+                            <div class="row mt-4">
+                                <input formControlName="consumerId3" id="consumerid" type="number"
+                                    class="inp form-control" placeholder="Enter Consumer Id" />
+                                <input formControlName="policyId" id="policyid" type="text" class="inp form-control"
+                                    placeholder="Enter Policy Id" />
+
+
+                                <!-- <div class="" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="consumerId3" id="consumerid" type="number"
+                                            class="form-control" />
+                                        <label class="form-label" for="formWhite"
+                                            >Consumer Id</label>
+                                    </div>
+                                </div>
+                                <div class="mt-2" style="border-radius: 2rem;background-color: rgb(66, 66, 66);">
+                                    <div class="col-sm form-outline form-white">
+                                        <input formControlName="policyId" id="policyid" type="text"
+                                            class="form-control" />
+                                        <label class="form-label" for="formWhite" >Policy
+                                            Id</label>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="row mt-3" style="display: flex">
+                                <input type="submit" class="btn btn-primary rounded-pill mt-2"
+                                    value="View Consumer Policy" />
+                                <input type="button" class="btn btn-primary rounded-pill mt-1"
+                                    (click)="onClickIssuePolicy()" value="Issue Created Policy" />
+
+                            </div>
+                            <hr class="mt-3 mb-3" />
+                            <div class="row" style="display: flex">
+                                <button class="btn btn-outline-primary rounded-pill" (click)="onClickAddPolicy()">Create
+                                    Consumer
+                                    Policy</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-danger" role="alert" *ngIf="policyError!=null">
+                        {{policyError}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

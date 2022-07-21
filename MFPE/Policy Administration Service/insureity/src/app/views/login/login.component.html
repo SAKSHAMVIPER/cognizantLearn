@@ -1,0 +1,51 @@
+<section class="vh-90 center" align="center">
+    <app-card>
+        <div class="content">
+            <form *ngIf="!isLoggedIn" name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+                <div class="mb-md-5 mt-md-4 pb-5">
+                    <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                    <p class="text-white-50 mb-5">Please enter your Id, login and password!</p>
+
+                    <div class="form-outline form-white form-group mb-4">
+                        <input type="text" class="form-control " name="id" [(ngModel)]="form.id" required
+                            #id="ngModel" /><label for="id" class="form-label">Id</label>
+                        <div class="alert alert-danger" role="alert" *ngIf="id.errors && f.submitted">
+                            Id is required!
+                        </div>
+                    </div>
+                    <div class="form-outline form-white form-group mb-4">
+                        <input type="text" class="form-control" name="username" [(ngModel)]="form.username" required
+                            #username="ngModel" /><label for="username" class="form-label">Username</label>
+                        <div class="alert alert-danger" role="alert" *ngIf="username.errors && f.submitted">
+                            Username is required!
+                        </div>
+                    </div>
+                    <div class="form-outline form-white form-group mb-4">
+                        <input type="password" class="form-control" name="password" [(ngModel)]="form.password" required
+                            minlength="3" #password="ngModel" /><label for="password"
+                            class="form-label">Password</label>
+                        <div class="alert alert-danger" role="alert" *ngIf="password.errors && f.submitted">
+                            <div *ngIf="password.errors['required']">Password is required</div>
+                            <div *ngIf="password.errors['minlength']">
+                                Password must be at least 6 characters
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-outline-light btn-lg px-5">
+                            Login
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <div class="alert alert-danger" role="alert" *ngIf="f.submitted && isLoginFailed">
+                            Login failed: {{ errorMessage }}
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="alert alert-success" *ngIf="isLoggedIn">
+                Logged in successfully : {{ responseText }}.
+            </div>
+        </div>
+    </app-card>
+</section>

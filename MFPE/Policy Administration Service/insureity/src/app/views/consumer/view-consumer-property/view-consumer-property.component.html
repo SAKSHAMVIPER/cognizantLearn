@@ -1,0 +1,102 @@
+<app-card>
+    <div class="content">
+        <div align="center" *ngIf="!hasError">
+            <h1>Business Property Details</h1>
+            <table class="table table-hover align-middle mb-0 text-white-50">
+                <tr>
+                    <td>Property ID:</td>
+                    <td><span>{{response.id}}</span> </td>
+                </tr>
+                <tr>
+                    <td>Business ID:</td>
+                    <td>
+                        <span>{{response.businessId}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Consumer ID:</td>
+                    <td>
+                        <span>{{response.consumerId}}</span>
+                    </td>
+                </tr>
+                <!-- <tr>
+            <td>Insurance Type:</td>
+            <td>
+                <span>{{response.insuranceId}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Property Type:</td>
+            <td>
+                <span>{{response.}}</span>
+            </td>
+        </tr> -->
+                <tr>
+                    <td>Building Sqft:</td>
+                    <td>
+                        <span>{{response.buildingSqFt}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Building Type:</td>
+                    <td>
+                        <span>{{response.buildingType}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Building Storeys:</td>
+                    <td>
+                        <span>{{response.buildingStoreys}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Building Age:</td>
+                    <td>
+                        <span>{{response.buildingAge}}</span>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td>Property Value:</td>
+                    <td>
+                        <span>{{response.propertyValue}}</span>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>Cost of the Asset:</td>
+                    <td>
+                        <span>{{response.costOftheAsset}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Salvage Value:</td>
+                    <td>
+                        <span>{{response.salvageValue}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Useful Life of the Asset:</td>
+                    <td>
+                        <span>{{response.usefulLifeofAsset}}</span>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <div align="center" *ngIf="hasError">
+            <table style="border: 0px solid black;border-collapse: collapse;">
+                <tr>
+                    <th>Status:</th>
+                </tr>
+                <tr>
+                    <td><span *ngIf="!hasError" class="text-success">{{response}}</span>
+                        <span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                    </td>
+                </tr>
+            </table><div class="btn-group mt-3" role="group">
+                <button type="button" class="btn btn-primary" routerLink="/home">Home</button>
+                <!-- <button type="button" class="btn btn-primary" routerLink="../">Go Back</button> -->
+            </div>
+        </div>
+    </div>
+
+</app-card>

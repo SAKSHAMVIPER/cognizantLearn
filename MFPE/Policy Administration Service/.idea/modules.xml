@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PAS-Api-Gateway/PAS-Api-Gateway.iml" filepath="$PROJECT_DIR$/PAS-Api-Gateway/PAS-Api-Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pod-2.iml" filepath="$PROJECT_DIR$/Pod-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authorization-module/authorization-module.iml" filepath="$PROJECT_DIR$/authorization-module/authorization-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-module/consumer-module.iml" filepath="$PROJECT_DIR$/consumer-module/consumer-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/policy-module/policy-module.iml" filepath="$PROJECT_DIR$/policy-module/policy-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quotes-module/quotes-module.iml" filepath="$PROJECT_DIR$/quotes-module/quotes-module.iml" />
+    </modules>
+  </component>
+</project>

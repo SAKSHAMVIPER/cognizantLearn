@@ -1,0 +1,217 @@
+<app-card>
+    <div class="content" align="center">
+        <div class="container" *ngIf="!hasError && response==null">
+            <h2>Create Business Property</h2>
+            <form [formGroup]="propertyForm" (ngSubmit)="onSubmit(propertyForm.value)" method="post">
+                <table>
+                    <tr>
+                        <td>Business ID:</td>
+                        <td><input formControlName="businessId" id="businessId" type="number" class="form-control"
+                                placeholder="" />
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['businessId'].invalid && propertyForm.controls['businessId'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['businessId'].errors!['required']">
+                                    Business ID is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['businessId'].errors!['pattern']">
+                                    Business ID is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Consumer ID:</td>
+                        <td><input formControlName="consumerId" id="consumerId" type="number" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['consumerId'].invalid && propertyForm.controls['consumerId'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['consumerId'].errors!['required']">
+                                    Consumer ID is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['consumerId'].errors!['pattern']">
+                                    Consumer ID is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                <td>Insurance Type:</td>
+                <td><input formControlName="insurancetype" id="insurancetype" type="text" class="form-control"
+                        placeholder="" /></td>
+            </tr> -->
+                    <!-- <tr>
+                <td>Property Type:</td>
+                <td><input formControlName="propertytype" id="propertytype" type="text" class="form-control"
+                        placeholder="" /></td>
+            </tr> -->
+                    <tr>
+                        <td>Building sqft:</td>
+                        <td><input formControlName="buildingSqFt" id="buildingsqft" type="text" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['buildingSqFt'].invalid && propertyForm.controls['buildingSqFt'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['buildingSqFt'].errors!['required']">
+                                    Building sqft is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['buildingSqFt'].errors!['pattern']">
+                                    Building sqft is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Building Type:</td>
+                        <td><input formControlName="buildingType" id="buildingtype" type="text" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['buildingType'].invalid && propertyForm.controls['buildingType'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['buildingType'].errors!['required']">
+                                    Building Type is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['buildingType'].errors!['pattern']">
+                                    Building Type is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Building Storeys:</td>
+                        <td><input formControlName="buildingStoreys" id="buildingstoreys" type="text"
+                                class="form-control" placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['buildingStoreys'].invalid && propertyForm.controls['buildingStoreys'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['buildingStoreys'].errors!['required']">
+                                    Building Storeys is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['buildingStoreys'].errors!['pattern']">
+                                    Building Storeys is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Building Age:</td>
+                        <td><input formControlName="buildingAge" id="buildingage" type="number" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['buildingAge'].invalid && propertyForm.controls['buildingAge'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['buildingAge'].errors!['required']">
+                                    Building Age is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['buildingAge'].errors!['pattern']">
+                                    Building Age is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                <td>Property Value:</td>
+                <td><input formControlName="propertyValue" id="costoftheasset" type="number" class="form-control"
+                        placeholder="" />
+                </td>
+            </tr><tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['businessId'].invalid && propertyForm.controls['businessId'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['businessId'].errors!['required']">
+                                    Business ID is required.
+                                </div>
+                            </div>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td>Cost of the Asset:</td>
+                        <td><input formControlName="costOftheAsset" id="costoftheasset" type="number"
+                                class="form-control" placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['costOftheAsset'].invalid && propertyForm.controls['costOftheAsset'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['costOftheAsset'].errors!['required']">
+                                    Cost of the Asset is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['costOftheAsset'].errors!['pattern']">
+                                    Cost of the Asset not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Salvage Value:</td>
+                        <td><input formControlName="salvageValue" id="salvagevalue" type="number" class="form-control"
+                                placeholder="" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['salvageValue'].invalid && propertyForm.controls['salvageValue'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['salvageValue'].errors!['required']">
+                                    Salvage Value is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['salvageValue'].errors!['pattern']">
+                                    Salvage Value is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Useful Life of the Asset:</td>
+                        <td><input formControlName="usefulLifeofAsset" id="usefullifeoftheAsset" type="number"
+                                class="form-control" placeholder="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div *ngIf="propertyForm.controls['usefulLifeofAsset'].invalid && propertyForm.controls['usefulLifeofAsset'].touched"
+                                class="alert alert-danger">
+                                <div *ngIf="propertyForm.controls['usefulLifeofAsset'].errors!['required']">
+                                    Useful Life is required.
+                                </div>
+                                <div *ngIf="propertyForm.controls['usefulLifeofAsset'].errors!['pattern']">
+                                    Useful Life is not valid.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <div align="center">
+                        <input type="submit" class="btn btn-success" value="Create Business Property" />
+                    </div>
+                </table>
+            </form>
+        </div>
+
+        <table style="border: 0px solid black;border-collapse: collapse;">
+            <div *ngIf="response!=null || errorMsg!=''">
+
+                <h6>Status:</h6>
+                <h6><span *ngIf="!hasError" class="text-success">{{response}}</span>
+                    <span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                </h6>
+                <div class="btn-group mt-3" role="group">
+                    <button type="button" class="btn btn-primary" routerLink="/home">Home</button>
+                    <!-- <button type="button" class="btn btn-primary" routerLink="../">Go Back</button> -->
+                </div>
+            </div>
+        </table>
+    </div>
+
+</app-card>

@@ -1,0 +1,95 @@
+<app-card>
+    <div class="content" align="center">
+        <div class="container" *ngIf="!hasError && response==null">
+            <h2>Update Consumer Business</h2>
+            <form [formGroup]="consumerForm" (ngSubmit)="onSubmit(consumerForm.value)" method="post">
+                <div class="form-group">
+                    <label for="">First Name:</label>
+                    <input formControlName="firstName" id="firstname" type="text" class="form-control"
+                        placeholder="First Name" />
+                </div>
+                <div>
+                    <label>Last Name:</label>
+                    <input formControlName="lastName" id="lastname" type="text" class="form-control"
+                        placeholder="Last Name" />
+                </div>
+                <div>
+                    <label>DOB:</label>
+                    <input formControlName="dob" id="dob" type="text" class="form-control"
+                        placeholder="Date of Birth" />
+                </div>
+                <div>
+                    <label>Pan Details:</label>
+                    <input formControlName="pan" id="pandetails" type="text" class="form-control"
+                        placeholder="Pan Details" />
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input formControlName="email" id="email" type="text" class="form-control" placeholder="Email" />
+                </div>
+                <div>
+                    <label>Business Name:</label>
+                    <input formControlName="businessName" id="validity" type="text" class="form-control"
+                        placeholder="Validity" />
+                </div>
+                <div>
+                    <label>Business Type:</label>
+                    <input formControlName="businessType" id="businessname" type="text" class="form-control"
+                        placeholder="Business Type" />
+                </div>
+                <div>
+                    <label>Validity:</label>
+                    <input formControlName="validity" id="validity" type="text" class="form-control"
+                        placeholder="Validity" />
+                </div>
+                <div>
+                    <label>Agent Id:</label>
+                    <input formControlName="agentId" id="agentid" type="number" class="form-control"
+                        placeholder="Agent Id" />
+                </div>
+                <div>
+                    <label>Agent Name:</label>
+                    <input formControlName="agentName" id="agentname" type="text" class="form-control"
+                        placeholder="Agent Name" />
+                </div>
+                <div>
+                    <label>Business Turnover:</label>
+                    <input formControlName="businessTurnover" id="businessturnover" type="number" class="form-control"
+                        placeholder="Business Turnover" />
+                </div>
+                <div>
+                    <label>Capital Invested:</label>
+                    <input formControlName="capitalInvested" id="capitalinvested" type="number" class="form-control"
+                        placeholder="Capital Invested" />
+                </div>
+                <div>
+                    <label>Total Employees</label>
+                    <input formControlName="totalEmployees" id="totalemployees" type="number" class="form-control"
+                        placeholder="Total Employees" />
+                </div>
+                <div>
+                    <label>Business Age:</label>
+                    <input formControlName="businessAge" id="businessage" type="number" class="form-control"
+                        placeholder="Business Age" />
+                </div>
+                <div align="center">
+                    <input type="submit" class="btn btn-success" value="Update Consumer Business" />
+                </div>
+            </form>
+        </div>
+
+        <table style="border: 0px solid black;border-collapse: collapse;">
+            <div *ngIf="response!=null || errorMsg!=''">
+
+                <h6>Status:</h6>
+                <h6><span *ngIf="!hasError" class="text-success">{{response}}</span>
+                    <span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                </h6>
+                <div class="btn-group mt-3" role="group">
+                    <button type="button" class="btn btn-primary" routerLink="/home">Home</button>
+                    <!-- <button type="button" class="btn btn-primary" routerLink="../">Go Back</button> -->
+                </div>
+            </div>
+        </table>
+    </div>
+</app-card>

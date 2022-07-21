@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-module" />
+        <module name="EurekaServer" />
+        <module name="quotes-module" />
+        <module name="policy-module" />
+        <module name="authorization-module" />
+        <module name="PAS-Api-Gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization-module" target="17" />
+      <module name="consumer-module" target="17" />
+      <module name="EurekaServer" target="17" />
+      <module name="PAS-Api-Gateway" target="17" />
+      <module name="policy-module" target="17" />
+      <module name="quotes-module" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
+      <module name="PAS-Api-Gateway" options="-parameters" />
+      <module name="authorization-module" options="-parameters" />
+      <module name="consumer-module" options="-parameters" />
+      <module name="policy-module" options="-parameters" />
+      <module name="quotes-module" options="-parameters" />
+    </option>
+  </component>
+</project>

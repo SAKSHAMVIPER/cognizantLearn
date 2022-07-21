@@ -1,0 +1,509 @@
+2022-06-29_13-37-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 21848 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-37-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-37-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-37-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-37-37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-37-37 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1630 ms
+2022-06-29_13-37-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_13-37-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_13-37-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_13-37-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_13-37-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-37-37 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-41-08 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-41-08 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-41-08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-41-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-41-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-41-08 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1862 ms
+2022-06-29_13-41-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_13-41-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@36fca4e1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4636cdc0, org.springframework.security.web.context.SecurityContextPersistenceFilter@412d3445, org.springframework.security.web.header.HeaderWriterFilter@4dd33aaa, org.springframework.security.web.csrf.CsrfFilter@5fd639af, org.springframework.security.web.authentication.logout.LogoutFilter@3ebc7eb6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43fe9df8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@25a839f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2e784705, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48570dab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1113afd4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b0591a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a239df0, org.springframework.security.web.session.SessionManagementFilter@7dd2058c, org.springframework.security.web.access.ExceptionTranslationFilter@5c3afccb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ee61f02]
+2022-06-29_13-41-08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-41-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_13-41-08 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 4.873 seconds (JVM running for 5.875)
+2022-06-29_13-41-08 [http-nio-9091-exec-2] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_13-41-08 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_13-41-08 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-29_13-41-08 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_13-41-08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_13-41-08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_13-49-03 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-49-03 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-49-03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-49-03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-49-03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-49-03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-49-03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-49-03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-49-03 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-49-03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 429 ms
+2022-06-29_13-49-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-06-29_13-49-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-06-29_13-49-03 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-49-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-06-29_13-49-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-06-29_13-49-03 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-49-03 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-54-40 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-54-40 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-54-40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-54-40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-54-40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-54-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-54-40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-54-40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-54-40 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-54-40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 357 ms
+2022-06-29_13-54-40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-06-29_13-54-40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-06-29_13-54-40 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-54-40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-06-29_13-54-40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-06-29_13-54-40 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-54-40 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-55-43 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-55-43 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-55-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-55-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-55-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-55-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-55-43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-55-43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-55-43 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-55-43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 286 ms
+2022-06-29_13-55-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-06-29_13-55-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-06-29_13-55-43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-55-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-06-29_13-55-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-06-29_13-55-43 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-55-43 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-56-44 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-56-44 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-56-44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-56-44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-56-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-56-44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-56-44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-56-44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-56-44 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-56-44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 278 ms
+2022-06-29_13-56-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-06-29_13-56-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-06-29_13-56-44 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-56-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2022-06-29_13-56-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2022-06-29_13-56-44 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-56-44 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-56-50 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-56-50 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-56-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-56-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-56-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-56-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-56-50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-56-50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-56-50 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-56-50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 329 ms
+2022-06-29_13-56-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2022-06-29_13-56-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2022-06-29_13-56-50 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-56-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2022-06-29_13-56-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2022-06-29_13-56-50 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-56-50 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-57-35 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-57-35 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-57-35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-57-35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-57-35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-57-35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-57-35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-57-35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-57-35 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-57-35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 469 ms
+2022-06-29_13-57-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2022-06-29_13-57-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2022-06-29_13-57-35 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-57-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2022-06-29_13-57-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2022-06-29_13-57-35 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-57-35 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-58-23 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 11576 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-58-23 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-58-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-58-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-58-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-58-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-58-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-58-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-58-23 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-58-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 375 ms
+2022-06-29_13-58-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2022-06-29_13-58-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2022-06-29_13-58-23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-58-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2022-06-29_13-58-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2022-06-29_13-58-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-58-23 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-58-39 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 9904 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-58-39 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-58-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-58-39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-58-39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-58-39 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1760 ms
+2022-06-29_13-58-39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_13-58-39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-58-39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_13-58-39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_13-58-39 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-58-39 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_13-59-16 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 22464 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_13-59-16 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_13-59-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_13-59-16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_13-59-16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_13-59-16 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1513 ms
+2022-06-29_13-59-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_13-59-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_13-59-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_13-59-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_13-59-16 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_13-59-16 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_14-04-35 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 7296 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-04-35 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-04-35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-04-35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-04-35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-04-35 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1612 ms
+2022-06-29_14-04-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_14-04-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-04-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_14-04-35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_14-04-35 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_14-04-35 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_14-05-15 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 3732 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-05-15 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-05-15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-05-15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-05-15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-05-15 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1390 ms
+2022-06-29_14-05-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_14-05-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-05-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_14-05-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_14-05-15 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_14-05-15 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_14-06-12 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 14128 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-06-12 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-06-12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-06-12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-06-12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-06-12 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1887 ms
+2022-06-29_14-06-12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_14-06-12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-06-12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_14-06-12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_14-06-12 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_14-06-12 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_14-06-57 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-06-57 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-06-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-06-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-06-57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-06-57 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1915 ms
+2022-06-29_14-06-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-29_14-06-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@399676f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@322ee38d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d798456, org.springframework.security.web.header.HeaderWriterFilter@b55fd80, org.springframework.security.web.csrf.CsrfFilter@797f82e, org.springframework.security.web.authentication.logout.LogoutFilter@5be013d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a492fe5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6feb3ff9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7ce294b3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4d38d17c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3eea365a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@273ff21f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f71f744, org.springframework.security.web.session.SessionManagementFilter@737efe08, org.springframework.security.web.access.ExceptionTranslationFilter@51163a9a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a8a12e9]
+2022-06-29_14-06-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-06-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_14-06-57 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 5.274 seconds (JVM running for 6.698)
+2022-06-29_14-06-57 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_14-06-57 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_14-06-57 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-29_14-06-57 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-06-57 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-29_14-06-57 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-29_14-07-45 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-07-45 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-07-45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-07-45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-07-45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-07-45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-07-45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-07-45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-07-45 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-07-45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 488 ms
+2022-06-29_14-07-45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-06-29_14-07-45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-06-29_14-07-45 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-07-45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-06-29_14-07-45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-06-29_14-07-45 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_14-07-45 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_14-09-43 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-09-43 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-09-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-09-43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-09-43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-09-43 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 393 ms
+2022-06-29_14-09-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-06-29_14-09-43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@101bedfc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25f348e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@70e5be25, org.springframework.security.web.header.HeaderWriterFilter@3b1aa479, org.springframework.security.web.csrf.CsrfFilter@3d89e83a, org.springframework.security.web.authentication.logout.LogoutFilter@37ee1ed9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@724c5f33, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c6cc445, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@35d62ea9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1cc1300f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a6f9e48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4438de10, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20822154, org.springframework.security.web.session.SessionManagementFilter@2df4e7c, org.springframework.security.web.access.ExceptionTranslationFilter@7a64169f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@630acae6]
+2022-06-29_14-09-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_14-09-43 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 0.759 seconds (JVM running for 168.394)
+2022-06-29_14-09-43 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-29_14-09-43 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-09-43 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-06-29_14-09-43 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-06-29_14-10-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-10-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-10-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-10-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-10-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-10-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-10-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-10-37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-10-37 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-10-37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 329 ms
+2022-06-29_14-10-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-06-29_14-10-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-06-29_14-10-37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-10-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-06-29_14-10-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-06-29_14-10-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-29_14-10-37 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-29_14-11-04 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-11-04 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-11-04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-11-04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-11-04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-11-04 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 296 ms
+2022-06-29_14-11-04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-06-29_14-11-04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@305c1180, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17ac3936, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e1926c2, org.springframework.security.web.header.HeaderWriterFilter@69c8e039, org.springframework.security.web.csrf.CsrfFilter@2e2bc8a7, org.springframework.security.web.authentication.logout.LogoutFilter@785cbe18, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3721a713, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@21f37c63, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d8f0def, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46da917, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cea4668, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28da2e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44c32c58, org.springframework.security.web.session.SessionManagementFilter@1e87bb45, org.springframework.security.web.access.ExceptionTranslationFilter@41106425, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d9959c4]
+2022-06-29_14-11-04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_14-11-04 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 0.685 seconds (JVM running for 249.505)
+2022-06-29_14-11-04 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-29_14-11-04 [http-nio-9091-exec-2] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_14-11-04 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_14-11-04 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-06-29_14-11-04 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-11-04 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2022-06-29_14-11-04 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2022-06-29_14-11-57 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-11-57 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-11-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-11-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-11-57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-11-57 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 307 ms
+2022-06-29_14-11-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2022-06-29_14-11-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@297fee68, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c5e34a3, org.springframework.security.web.context.SecurityContextPersistenceFilter@672a7780, org.springframework.security.web.header.HeaderWriterFilter@3d16546d, org.springframework.security.web.csrf.CsrfFilter@573347ef, org.springframework.security.web.authentication.logout.LogoutFilter@276ebb54, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e21ce5d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1df4df75, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7c8d4e53, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b74aa49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62dd8d77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6de7087d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42159569, org.springframework.security.web.session.SessionManagementFilter@2a6b411d, org.springframework.security.web.access.ExceptionTranslationFilter@1052b416, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eac3df]
+2022-06-29_14-11-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_14-11-57 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 0.624 seconds (JVM running for 301.782)
+2022-06-29_14-11-57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-29_14-11-57 [http-nio-9091-exec-3] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_14-11-57 [http-nio-9091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_14-11-57 [http-nio-9091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-06-29_14-11-57 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-11-57 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2022-06-29_14-11-57 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2022-06-29_14-13-52 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-13-52 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-13-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-13-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-13-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-13-52 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 283 ms
+2022-06-29_14-13-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2022-06-29_14-13-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-13-52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29_14-13-52 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-29_14-13-52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@67d073ca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19113fbf, org.springframework.security.web.context.SecurityContextPersistenceFilter@b6eee6e, org.springframework.security.web.header.HeaderWriterFilter@5c4384f4, org.springframework.security.web.csrf.CsrfFilter@3107cb68, org.springframework.security.web.authentication.logout.LogoutFilter@7bd2f229, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4af38749, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f691ed0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f8e3a1b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ad0efae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72d55ae7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32f1146d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42ae01db, org.springframework.security.web.session.SessionManagementFilter@4bd291a, org.springframework.security.web.access.ExceptionTranslationFilter@ebeef93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d447f70]
+2022-06-29_14-13-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_14-13-52 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 0.558 seconds (JVM running for 416.898)
+2022-06-29_14-13-52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-29_14-13-52 [http-nio-9091-exec-3] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_14-13-52 [http-nio-9091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_14-13-52 [http-nio-9091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-29_14-13-52 [Thread-24] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-13-52 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2022-06-29_14-13-52 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2022-06-29_14-14-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_14-14-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_14-14-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-14-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_14-14-37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_14-14-37 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 393 ms
+2022-06-29_14-14-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2022-06-29_14-14-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_14-14-37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29_14-14-37 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-29_14-14-37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52e745ef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fcb9b00, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f28f83, org.springframework.security.web.header.HeaderWriterFilter@4b9de8a4, org.springframework.security.web.csrf.CsrfFilter@7c5bc5f4, org.springframework.security.web.authentication.logout.LogoutFilter@668ea557, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fc8a3f5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@17565485, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@35865207, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19347fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@245a0fb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@260b5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e3157e5, org.springframework.security.web.session.SessionManagementFilter@33a48866, org.springframework.security.web.access.ExceptionTranslationFilter@1f655f0a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@187cb5b6]
+2022-06-29_14-14-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_14-14-37 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 0.779 seconds (JVM running for 462.179)
+2022-06-29_14-14-37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-29_14-14-37 [http-nio-9091-exec-2] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_14-14-37 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_14-14-37 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-06-29_14-15-07 [Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_14-15-07 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2022-06-29_14-15-07 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2022-06-29_15-15-42 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Starting QuotesModuleApplication using Java 17.0.2 on DESKTOP-9H42O94 with PID 18124 (D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module\target\classes started by kshitij in D:\JAVA CDE FSE\STAGE 4\MAIN PROJECT\Pod-2\quotes-module)
+2022-06-29_15-15-42 [restartedMain] INFO  c.c.q.QuotesModuleApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2022-06-29_15-15-42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-29_15-15-42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-29_15-15-42 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring embedded WebApplicationContext
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 365 ms
+2022-06-29_15-15-42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-32 - Starting...
+2022-06-29_15-15-42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-32 - Start completed.
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quote_db'
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14add3bb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54dc7533, org.springframework.security.web.context.SecurityContextPersistenceFilter@22d89486, org.springframework.security.web.header.HeaderWriterFilter@60e94012, org.springframework.security.web.csrf.CsrfFilter@5d769aff, org.springframework.security.web.authentication.logout.LogoutFilter@14496b97, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c7fa1c7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@147b6272, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5fc97f6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d5cdd5b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77122b97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5dd10cb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ef12417, org.springframework.security.web.session.SessionManagementFilter@4b905e69, org.springframework.security.web.access.ExceptionTranslationFilter@33bcc47e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e9dd588]
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path '/quote'
+2022-06-29_15-15-42 [restartedMain] INFO  c.c.q.QuotesModuleApplication - Started QuotesModuleApplication in 0.701 seconds (JVM running for 4127.423)
+2022-06-29_15-15-42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  o.a.c.c.C.[.[localhost].[/quote] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  c.c.q.controller.QuotesController - Start
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  c.c.q.service.QuotesMasterService - start service
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  c.c.q.service.QuotesMasterService - end service
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  c.c.q.controller.QuotesController - QuotesMaster: null
+2022-06-29_15-15-42 [http-nio-9091-exec-2] INFO  c.c.q.controller.QuotesController - End
+2022-06-29_15-15-42 [http-nio-9091-exec-3] INFO  c.c.q.controller.QuotesController - Start
+2022-06-29_15-15-42 [http-nio-9091-exec-3] INFO  c.c.q.service.QuotesMasterService - start service
+2022-06-29_15-15-42 [http-nio-9091-exec-3] INFO  c.c.q.service.QuotesMasterService - end service
+2022-06-29_15-15-42 [http-nio-9091-exec-3] INFO  c.c.q.controller.QuotesController - QuotesMaster: com.cts.quotesmodule.model.QuotesMaster@2584bd4e
+2022-06-29_15-15-42 [http-nio-9091-exec-3] INFO  c.c.q.controller.QuotesController - End

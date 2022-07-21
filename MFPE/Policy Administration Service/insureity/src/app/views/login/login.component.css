@@ -1,0 +1,21 @@
+.form-outline .form-control:focus~.form-notch .form-notch-leading {
+    border-top: .125rem solid #00B74A;
+    border-bottom: .125rem solid #00B74A;
+    border-left: .125rem solid #00B74A;
+}
+
+.form-outline .form-control:focus~.form-notch .form-notch-middle {
+    border-bottom: .125rem solid;
+    border-color: #00B74A;
+}
+
+.form-outline .form-control:focus~.form-notch .form-notch-trailing {
+    border-color: currentcolor currentcolor currentcolor #00B74A;
+    border-bottom: .125rem solid #00B74A;
+    border-right: .125rem solid #00B74A;
+    border-top: .125rem solid #00B74A;
+}
+
+.form-outline .form-control:focus~.form-label {
+    color: #00B74A;
+}

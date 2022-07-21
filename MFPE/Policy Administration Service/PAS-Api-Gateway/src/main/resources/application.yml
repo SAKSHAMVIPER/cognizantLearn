@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: PAS-gateway
+    
+    
+##GATEWAY CONFIGURATIONS
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+              allowedOrigins: "*"
+              allowedMethods: "*"
+              allowedHeaders: "*"
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      ## CONSUMER SERVICE
+      - id: consumer-service
+        uri:
+          lb://consumer-service
+        predicates:
+        - Path=/consumer-service/**
+        filters:
+        - StripPrefix=1
+        
+      ## Quote SERVICE
+      - id: quotes-service
+        uri:
+          lb://quotes-service
+        predicates:
+        - Path=/quotes-service/**
+        filters:
+        - StripPrefix=1
+        
+      ## POLICY SERVICE
+      - id: policy-service
+        uri:
+          lb://policy-service
+        predicates:
+        - Path=/policy-service/**
+        filters:
+        - StripPrefix=1
+
+      ## AUTH SERVICE
+      - id: authorization-service
+        uri:
+          lb://authorization-service
+        predicates:
+        - Path=/authorization-service/**
+        filters:
+        - StripPrefix=1
+
+server:
+  port: 9010
+  

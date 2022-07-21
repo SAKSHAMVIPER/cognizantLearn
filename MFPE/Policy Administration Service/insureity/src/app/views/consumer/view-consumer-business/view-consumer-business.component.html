@@ -1,0 +1,152 @@
+<app-card>
+    <div align="center" class="content">
+        <div class="container" *ngIf="!hasError">
+            <h1>Consumer Business Details</h1>
+            <!-- style="border: 1px solid grey;border-collapse: collapse;margin:auto;padding:auto" -->
+            <table class="table table-hover align-middle mb-0 text-white-50">
+
+                <tr>
+                    <td>First Name:</td>
+                    <td>
+                        <span>{{response.firstName}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td>
+                        <span>{{response.lastName}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td>
+                        <span>{{response.dob}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Business Name:</td>
+                    <td>
+                        <span>{{response.businessName}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pan Details:</td>
+                    <td>
+                        <span>{{response.pan}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <span>{{response.email}}</span>
+                    </td>
+                </tr>
+                <!-- <tr>
+            <td>Phone:</td>
+            <td>
+                <span>{{response.title}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Website:</td>
+            <td>
+                <span>{{response.title}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Business Qverview:</td>
+            <td>
+                <span>{{response.title}}</span>
+            </td>
+        </tr> -->
+                <tr>
+                    <td>Validity:</td>
+                    <td>
+                        <span>{{response.validity}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agent Name:</td>
+                    <td>
+                        <span>{{response.agentName}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agent Id:</td>
+                    <td>
+                        <span>{{response.agentId}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Business ID:</td>
+                    <td>
+                        <span>{{response.businessName}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Consumer ID:</td>
+                    <td>
+                        <span>{{response.consumerId}}</span>
+                    </td>
+                </tr>
+                <!-- <tr>
+            <td>Business Category:</td>
+            <td>
+                <span>{{response.title}}</span>
+            </td>
+        </tr> -->
+                <tr>
+                    <td>Business Type:</td>
+                    <td>
+                        <span>{{response.businessType}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Business Turn Over:</td>
+                    <td>
+                        <span>{{response.businessTurnover}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Capital Invested:</td>
+                    <td>
+                        <span>{{response.capitalInvested}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Employees:</td>
+                    <td>
+                        <span>{{response.totalEmployees}}</span>
+                    </td>
+                </tr>
+                <!-- <tr>
+            <td>Business Value:</td>
+            <td>
+                <span>{{response.title}}</span>
+            </td>
+        </tr> -->
+                <tr>
+                    <td>Business Age:</td>
+                    <td>
+                        <span>{{response.businessAge}}</span>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div align="center" *ngIf="hasError">
+            <table style="border: 0px solid black;border-collapse: collapse;">
+                <tr>
+                    <th>Status:</th>
+                    <th><span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                        <!-- <span>{{response | json}}</span> -->
+                    </th>
+                </tr>
+            </table><div class="btn-group mt-3" role="group">
+                <button type="button" class="btn btn-primary" routerLink="/home">Home</button>
+                <!-- <button type="button" class="btn btn-primary" routerLink="../">Go Back</button> -->
+            </div>
+        </div>
+    </div>
+</app-card>

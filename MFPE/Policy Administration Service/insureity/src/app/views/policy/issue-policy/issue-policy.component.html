@@ -1,0 +1,47 @@
+<app-card>
+    <div class="content">
+        <h2>Issue Policy</h2>
+        <form [formGroup]="issuePolicyForm" (ngSubmit)="onClickIssuePolicy(issuePolicyForm.value)">
+            <table>
+                <tr>
+                    <td>Policy ID:</td>
+                    <td><input formControlName="policyId" id="policyid" type="text" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <td>Consumer ID:</td>
+                    <td><input formControlName="consumerId" id="consumerid" type="number" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <td>Business Id:</td>
+                    <td><input formControlName="businessId" id="businessid" type="number" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <td>Payment Details:</td>
+                    <td><input formControlName="paymentDetails" id="paymentdetails" type="text" class="form-control" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Acceptance Status</td>
+                    <td><input formControlName="acceptanceStatus" id="acceptancestatus" type="text"
+                            class="form-control" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="btn btn-primary" type="submit" value="Issue Policy" /></td>
+                </tr>
+
+            </table>
+        </form><div align="center" *ngIf="hasError || policyResponse!=null">
+            <table style="border: 0px solid black;border-collapse: collapse;">
+                <tr>
+                    <th>Status:</th>
+                    <th><span *ngIf="!hasError" class="text-success">{{policyResponse}}</span>
+                        <span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                    </th>
+                </tr>
+            </table><div class="btn-group mt-3" role="group">
+                <button type="button" class="btn btn-primary" routerLink="/home">Home</button>
+                <!-- <button type="button" class="btn btn-primary" routerLink="../">Go Back</button> -->
+            </div>
+        </div>
+    </div>
+</app-card>

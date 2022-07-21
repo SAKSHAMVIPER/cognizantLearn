@@ -1,0 +1,127 @@
+<app-card>
+    <div class="content">
+        <div align="center" *ngIf="!hasError">
+            <h1>Policy Details</h1>
+            <table style="border: 1px solid black;border-collapse: collapse;">
+
+                <tr>
+                    <td>Consumer Id:</td>
+                    <td>
+                        <span>{{response.consumerId}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Policy Id:</td>
+                    <td>
+                        <span>{{response.policyId}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Property Type:</td>
+                    <td>
+                        <span>{{response.propertyType}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Consumer Type:</td>
+                    <td>
+                        <span>{{response.consumerType}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Assured Sum:</td>
+                    <td>
+                        <span>{{response.assuredSum}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tenure:</td>
+                    <td><span>{{response.tenure}}</span> </td>
+                </tr>
+                <tr>
+                    <td>Business Value:</td>
+                    <td>
+                        <span>{{response.businessValue}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Property Value:</td>
+                    <td>
+                        <span>{{response.propertyValue}}</span>
+                    </td>
+                </tr>
+                <!-- <tr>
+            <td>Base Location:</td>
+            <td>
+                <span>{{response}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td><span>{{response}}</span> </td>
+        </tr> -->
+                <tr>
+                    <td>Business Id:</td>
+                    <td>
+                        <span>{{response.businessId}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Payment Details:</td>
+                    <td>
+                        <span>{{response.paymentDetails}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Acceptance Status:</td>
+                    <td>
+                        <span>{{response.acceptanceStatus}}</span>n>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Policy Status:</td>
+                    <td>
+                        <span>{{response.policyStatus}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Effective Date:</td>
+                    <td>
+                        <span>{{response.effectiveDate}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Covered Sum:</td>
+                    <td>
+                        <span>{{response.coveredSum}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Duration:</td>
+                    <td>
+                        <span>{{response.duration}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Accepted Quote:</td>
+                    <td>
+                        <span>{{response.acceptedQuote}}</span>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <div align="center" *ngIf="hasError">
+            <table style="border: 0px solid black;border-collapse: collapse;">
+                <tr>
+                    <td>Status:</td>
+                </tr>
+                <tr>
+                    <td><span *ngIf="!hasError" class="text-success">{{response}}</span>
+                        <span *ngIf="hasError" class="text-danger">{{errorMsg}}</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</app-card>
